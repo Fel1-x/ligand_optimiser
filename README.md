@@ -1,1 +1,2 @@
-# ligand_optimiser
+# Ligand Selection Program
+
