@@ -25,7 +25,7 @@ and operates as follows.
 3. **Enter experimental data**
    - Input ligands, yields, and standard deviations.
    - Multiple entries can be provided at once using `;` separators.
-     - In excel this automation is possible via the following command, where column A contains the name, B the yield and C the standard deviation values:
+     - In Excel this automation is possible via the following command, where column A contains the name, B the yield and C the standard deviation values:
 
 ```
 =TEXTJOIN("; ", TRUE, A3:A27 & " " & B3:B27 & " " & C3:C27)
