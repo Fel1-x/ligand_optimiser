@@ -77,7 +77,6 @@ def latin_hypercube_sampling(pca_df, pc_cols, dim=2):
         print(suggestions[i])
 
     if dim==2:
-        print(suggestions)
         visualise_chemspace(pca_df, pc_cols, suggestions)
 
 def conditional_lhs(user_points, total, dim=2):
